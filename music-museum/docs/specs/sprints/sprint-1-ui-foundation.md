@@ -26,11 +26,11 @@ the spec: clean layouts, strong typography, clear hierarchy.
 - Components reflect Swiss style — clean, minimal, grid-aligned
 
 ## Completion Checklist
-- [ ] Card.tsx created in components/ui/
-- [ ] SectionHeading.tsx created in components/ui/
-- [ ] Panel.tsx created in components/ui/
-- [ ] globals.css updated with base design tokens
-- [ ] app/page.tsx updated to render the components
-- [ ] npm run build passes
-- [ ] npm run lint passes
-- [ ] Site visually reflects Swiss design style
+- [x] Card.tsx created in components/ui/
+- [x] SectionHeading.tsx created in components/ui/
+- [x] Panel.tsx created in components/ui/
+- [x] globals.css updated with base design tokens
+- [x] app/page.tsx updated to render the components
+- [x] npm run build passes
+- [x] npm run lint passes
+- [x] Site visually reflects Swiss design style
