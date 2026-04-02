@@ -41,10 +41,10 @@ the Social Proof principle should be visible through adoption data.
 - Swiss grid layout is clean and consistent
 
 ## Completion Checklist
-- [ ] ExhibitCard.tsx created in components/content/
-- [ ] EraHero.tsx created in components/content/
-- [ ] All five era cards visible on homepage
-- [ ] Social proof stat on each card
-- [ ] Explorer-tone intro copy written
-- [ ] npm run build passes
-- [ ] npm run lint passes
+- [x] ExhibitCard.tsx created in components/content/
+- [x] EraHero.tsx created in components/content/
+- [x] All five era cards visible on homepage
+- [x] Social proof stat on each card
+- [x] Explorer-tone intro copy written
+- [x] npm run build passes
+- [x] npm run lint passes
