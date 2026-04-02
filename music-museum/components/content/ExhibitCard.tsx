@@ -6,14 +6,15 @@ interface ExhibitCardProps {
   description: string;
   stat: string;
   href: string;
+  index: number;
 }
 
-export default function ExhibitCard({ era, dateRange, description, stat, href }: ExhibitCardProps) {
+export default function ExhibitCard({ era, dateRange, description, stat, href, index }: ExhibitCardProps) {
   return (
-    <Link href={href} className="block border border-foreground/10 p-8 flex flex-col gap-4 hover:bg-foreground/5 transition-colors">
+    <Link href={href} className="flex flex-col gap-4 border border-foreground/10 p-8 hover:bg-foreground/5 transition-colors">
       <div>
-        <p className="text-xs font-bold uppercase tracking-widest text-foreground/40 mb-1">
-          {dateRange}
+        <p className="text-xs font-bold uppercase tracking-widest text-foreground/25 mb-1">
+          {String(index).padStart(2, "0")} — {dateRange}
         </p>
         <h3 className="text-xl font-bold uppercase tracking-tight leading-tight">
           {era}

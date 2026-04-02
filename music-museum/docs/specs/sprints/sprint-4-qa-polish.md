@@ -43,11 +43,11 @@ designing an exhibition. Evaluate and improve:
 - Explorer archetype tone present throughout
 
 ## Completion Checklist
-- [ ] Back link on every exhibit page
-- [ ] "Why This Matters" section on each exhibit page
-- [ ] Copy reviewed for Explorer tone
-- [ ] Swiss style consistent across all pages
-- [ ] All navigation working
-- [ ] npm run build passes
-- [ ] npm run lint passes
-- [ ] Site feels like a museum exhibition
+- [x] Back link on every exhibit page
+- [x] "Why This Matters" section on each exhibit page
+- [x] Copy reviewed for Explorer tone
+- [x] Swiss style consistent across all pages
+- [x] All navigation working
+- [x] npm run build passes
+- [x] npm run lint passes
+- [x] Site feels like a museum exhibition

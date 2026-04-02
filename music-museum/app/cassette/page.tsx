@@ -15,8 +15,9 @@ export default function CassettePage() {
         <ArtifactDisplay
           name="Sony Walkman TPS-L2"
           keyFact="The Sony Walkman TPS-L2 was released on July 1, 1979 in Japan, forever changing how people experienced music in public spaces."
-          description="The Walkman was an act of radical individualism. It gave listeners a private soundtrack to the world around them. Suddenly, commutes were concerts and city streets had a score. Over 400 million units later, the Walkman had permanently altered the relationship between people and music."
+          description="The Walkman was an act of radical individualism. It gave listeners a private soundtrack to the world around them. Suddenly, commutes were concerts and city streets had a score. The mix tape added another layer: a handcrafted sequence of songs, carefully chosen and given to another person as a gift. No format before or since has been so intimate."
           stat="400M+ Walkmans sold worldwide"
+          whyItMatters="The Walkman did something no technology had done before: it made listening private in public. It separated the listener from their environment and gave them sovereignty over their own sonic world. This shift — from shared listening to personal listening — permanently changed the relationship between individuals and music. It also democratized creation: the cassette let anyone record, copy, and distribute sound, laying the cultural groundwork for the remix and sampling culture that followed."
         />
         <div className="mt-12 pt-8 border-t border-foreground/10">
           <Link

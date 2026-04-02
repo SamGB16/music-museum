@@ -56,10 +56,10 @@ export default function Home() {
       <Panel>
         <SectionHeading
           heading="The Exhibitions"
-          subtitle="Explore each era of music consumption technology."
+          subtitle="Five eras. Five rooms. Follow the sequence or explore freely."
         />
         <div className="grid grid-cols-1 gap-px bg-foreground/10 sm:grid-cols-2 lg:grid-cols-3">
-          {eras.map((item) => (
+          {eras.map((item, i) => (
             <div key={item.era} className="bg-background">
               <ExhibitCard
                 era={item.era}
@@ -67,6 +67,7 @@ export default function Home() {
                 description={item.description}
                 stat={item.stat}
                 href={item.href}
+                index={i + 1}
               />
             </div>
           ))}
