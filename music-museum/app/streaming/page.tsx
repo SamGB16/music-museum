@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import ExhibitHero from "@/components/content/ExhibitHero";
 import ArtifactDisplay from "@/components/content/ArtifactDisplay";
@@ -13,13 +12,11 @@ export default function StreamingPage() {
         description="Every song ever recorded. Available everywhere. Instantly. Ownership gave way to access, the album gave way to the algorithm, and the collector gave way to the curator. We are still living this revolution — and its end is not yet in sight."
       />
       <div className="w-full border-b border-foreground/10">
-        <Image
-          src="/streaming.jpg"
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/music-museum/streaming.jpg"
           alt="A person listening to music on a smartphone, representing the streaming era from 2008 to present"
-          width={1200}
-          height={600}
           className="w-full object-cover max-h-[480px]"
-          priority
         />
       </div>
       <Panel>

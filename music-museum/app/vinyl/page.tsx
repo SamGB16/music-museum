@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import ExhibitHero from "@/components/content/ExhibitHero";
 import ArtifactDisplay from "@/components/content/ArtifactDisplay";
@@ -13,13 +12,11 @@ export default function VinylPage() {
         description="Before playlists, before streaming, before the click of a button — there was the groove. The phonograph gave the world its first encounter with recorded sound, and the LP record became the canvas of the twentieth century."
       />
       <div className="w-full border-b border-foreground/10">
-        <Image
-          src="/vinyl.jpg"
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/music-museum/vinyl.jpg"
           alt="A vinyl record and phonograph needle, circa mid-twentieth century"
-          width={1200}
-          height={600}
           className="w-full object-cover max-h-[480px]"
-          priority
         />
       </div>
       <Panel>

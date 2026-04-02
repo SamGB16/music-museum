@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import ExhibitHero from "@/components/content/ExhibitHero";
 import ArtifactDisplay from "@/components/content/ArtifactDisplay";
@@ -13,13 +12,11 @@ export default function CassettePage() {
         description="Music escaped the living room. The compact cassette made recording and carrying music possible for everyone, and the Walkman turned listening into a personal, portable act. The mix tape became the most intimate form of communication a generation had ever known."
       />
       <div className="w-full border-b border-foreground/10">
-        <Image
-          src="/walkman.jpg"
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/music-museum/walkman.jpg"
           alt="Sony Walkman TPS-L2, the first portable cassette player, released in 1979"
-          width={1200}
-          height={600}
           className="w-full object-cover max-h-[480px]"
-          priority
         />
       </div>
       <Panel>

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import EraHero from "@/components/content/EraHero";
 import ExhibitCard from "@/components/content/ExhibitCard";
 import Panel from "@/components/ui/Panel";
@@ -51,13 +50,11 @@ export default function Home() {
   return (
     <main>
       <div className="w-full border-b border-foreground/10">
-        <Image
-          src="/hero.jpg"
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/music-museum/hero.jpg"
           alt="A vintage gramophone, the earliest device for playing recorded music"
-          width={1200}
-          height={600}
           className="w-full object-cover max-h-[480px]"
-          priority
         />
       </div>
       <EraHero

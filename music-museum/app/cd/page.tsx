@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import ExhibitHero from "@/components/content/ExhibitHero";
 import ArtifactDisplay from "@/components/content/ArtifactDisplay";
@@ -13,13 +12,11 @@ export default function CdPage() {
         description="Digital audio arrived in a silver disc the size of your palm. No hiss, no warping, no side B — just perfect sound, on demand. The CD triggered the greatest consumer music boom in history and the Discman carried it out the door."
       />
       <div className="w-full border-b border-foreground/10">
-        <Image
-          src="/cd.jpg"
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/music-museum/cd.jpg"
           alt="A compact disc reflecting light, introduced commercially in 1982"
-          width={1200}
-          height={600}
           className="w-full object-cover max-h-[480px]"
-          priority
         />
       </div>
       <Panel>
