@@ -2,8 +2,7 @@
 
 ## Goal
 Review the site as a Smithsonian curator and improve narrative flow,
-visual consistency, and user experience. This is the final sprint
-before the midterm review presentation.
+visual consistency, and user experience. 
 
 ## Smithsonian Curator Review
 Have AI review the site as if it were a curator for the Smithsonian
