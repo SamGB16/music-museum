@@ -28,7 +28,7 @@ inviting, and forward-moving. Each exhibit is a new room to discover.
 |-------------|------------------------------|
 | /           | Homepage — exhibition entrance|
 | /vinyl      | Phonograph & Vinyl (1877–1970s)|
-| /cassette   | Cassette & Walkman (1970s–1990s)|
+| /cassette   | Cassette & Walkman (1963–1990s)|
 | /cd         | CD & Discman (1980s–2000s)   |
 | /ipod       | MP3 & iPod (1990s–2000s)     |
 | /streaming  | Streaming Era (2008–present) |
