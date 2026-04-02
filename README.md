@@ -1,42 +1,63 @@
 # Music Consumption Museum
 
-A museum-style website exploring the evolution of music consumption,
-from the phonograph and vinyl record to modern streaming platforms.
+A museum-style website exploring the evolution of music consumption, from the phonograph and vinyl record to modern streaming platforms.
 
 ## Live Site
-Visit the live exhibition: https://SamGB16.github.io/music-museum/
+https://SamGB16.github.io/music-museum/
 
-## Project Location
-The full project lives in the `music-museum/` folder, including:
-- The Next.js application
-- All sprint documentation in `docs/specs/`
-- The complete development history
+## GitHub Repository
+https://github.com/SamGB16/music-museum
 
-## Design Framework
+## Project Overview
+This project is a curated museum exhibition that guides visitors
+through five eras of music consumption technology. Each exhibit page represents a different room in the museum, telling the story of how humanity has listened to music from 1877 to the present day.
 
-### Design Style — Swiss (International Style)
-Clean grid-based layouts, strong typographic hierarchy, and generous
-whitespace. Every page is structured like a gallery wall — organized,
-intentional, and easy to navigate.
+## Design Style — Swiss (International Style)
+The site uses the Swiss design style, characterized by:
+- Clean, minimal layouts with strong grid systems
+- Clear typographic hierarchy with generous whitespace
+- Limited color palette — dark backgrounds with high contrast text
+- Content and structure take priority over decoration
 
-### Cialdini Principle — Social Proof
-Each exhibit page highlights adoption data showing how widely each
-format was embraced — units sold, peak users, cultural reach. This
-validates the importance of each era and encourages deeper engagement.
+This style grounds the site in a recognizable visual tradition that feels authoritative and museum-like, letting the content speak without visual noise.
 
-### Brand Archetype — The Explorer
-The site guides visitors on a journey through time. Each exhibit is
-a new room to discover. Tone is curious, inviting, and forward-moving.
+## Brand Archetype — The Explorer
+The site follows the Explorer archetype. This shapes:
+- Tone: curious, inviting, forward-moving
+- Vocabulary: journey, discovery, room, exhibition
+- Structure: each era is a new room to explore
+- Emotional character: wonder at how far we have come
+
+The Explorer archetype was chosen because music consumption is
+a universal human journey and everyone has a relationship with how
+they listen to music.
+
+## Cialdini Principle — Social Proof
+The site applies Social Proof by highlighting adoption data on every exhibit page and era card:
+- Vinyl: Over 100M records sold annually at peak
+- Walkman: 400M+ units sold worldwide
+- CD: 2.4B CDs sold in peak year 1999
+- iPod: 450M+ units sold before discontinuation
+- Spotify: 600M+ users worldwide
+
+Showing how widely each format was adopted validates the cultural
+importance of each era and encourages visitors to engage more deeply with the content.
 
 ## AI Orchestration Process
-This project follows a spec-driven development process:
+This project follows a spec-driven development workflow inspired by the reference repository. The core principle is that AI is a tool for execution, not decision-making.
 
-Spec → Sprint Doc → Implement → QA → Commit
+### Workflow
+```
+Spec → QA Spec → Sprint Doc → Implement → QA → Commit
+```
 
-AI was used as a tool for execution, not decision-making. All
-decisions about scope, content, and quality were made by the human.
+### Why This Process
+- Prevents drift — AI stays within bounded sprint scope
+- Preserves intent — decisions live in files not chat history
+- Enables verification — each sprint has explicit acceptance criteria
+- Improves quality — QA is a separate deliberate step
 
-## Sprints Completed
+### Sprints Completed
 
 | Sprint | Name | Scope |
 |---|---|---|
@@ -44,20 +65,34 @@ decisions about scope, content, and quality were made by the human.
 | 1 | UI Foundation | Card, Panel, SectionHeading components |
 | 2 | Homepage | Exhibition entrance, era cards, social proof |
 | 3 | Exhibit Pages | Five era pages with artifacts and copy |
-| 4 | QA & Polish | Curator review, Why This Matters, navigation |
+| 4 | QA & Polish | Smithsonian curator review, polish |
 | 5 | Images | Hero images for all exhibit pages |
 
-## Smithsonian Curator Review
-AI reviewed the site as a Smithsonian curator evaluating narrative
-flow, artifact presentation, educational value, emotional engagement,
-and visual coherence. This produced the "Why This Matters" section
-on each exhibit page.
+### Change Notes
+Small, low-risk changes used the lightweight change note path:
+- Change 001: Homepage hero image
+- Change 002: Fix image paths for GitHub Pages deployment
+
+### Smithsonian Curator Review
+As required by the assignment, AI reviewed the site as a Smithsonian curator evaluating narrative flow, artifact presentation, educational value, emotional engagement, and visual coherence. This review produced the "Why This Matters" section on each exhibit page and improvements to the Explorer-tone copy throughout the site.
+
+### Verification
+Each sprint was verified with:
+- npm run build
+- npm run lint
+- Visual browser check against the sprint checklist
+
+## Tech Stack
+- Next.js 16
+- React 19
+- Tailwind CSS v4
+- TypeScript
+- Deployed via GitHub Actions to GitHub Pages
 
 ## Sources
-
 - Phonograph & Vinyl: https://en.wikipedia.org/wiki/Phonograph_record
-- Sony Walkman history: https://en.wikipedia.org/wiki/Walkman
-- Walkman release date: https://www.history.com/this-day-in-history/july-1/the-first-sony-walkman-goes-on-sale
+- Sony Walkman: https://en.wikipedia.org/wiki/Walkman
+- Walkman release: https://www.history.com/this-day-in-history/july-1/the-first-sony-walkman-goes-on-sale
 - Compact Disc: https://en.wikipedia.org/wiki/Compact_disc
-- iPod history: https://en.wikipedia.org/wiki/IPod
-- Spotify company info: https://newsroom.spotify.com/company-info/
+- iPod: https://en.wikipedia.org/wiki/IPod
+- Spotify: https://newsroom.spotify.com/company-info/
