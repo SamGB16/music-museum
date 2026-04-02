@@ -1,3 +1,4 @@
+import Image from "next/image";
 import EraHero from "@/components/content/EraHero";
 import ExhibitCard from "@/components/content/ExhibitCard";
 import Panel from "@/components/ui/Panel";
@@ -49,6 +50,16 @@ const eras = [
 export default function Home() {
   return (
     <main>
+      <div className="w-full border-b border-foreground/10">
+        <Image
+          src="/hero.jpg"
+          alt="A vintage gramophone, the earliest device for playing recorded music"
+          width={1200}
+          height={600}
+          className="w-full object-cover max-h-[480px]"
+          priority
+        />
+      </div>
       <EraHero
         title="Music Consumption Museum"
         welcome="Step inside. Five rooms, five revolutions. Each exhibit traces a technology that rewired the way humanity hears itself — from the first grooved cylinder to the infinite stream. Your journey begins here."
