@@ -61,13 +61,13 @@ and coherent with the Swiss design style and Explorer archetype.
 - Each exhibit page links back to homepage
 
 ## Completion Checklist
-- [ ] ExhibitHero.tsx created in components/content/
-- [ ] ArtifactDisplay.tsx created in components/content/
-- [ ] /vinyl page exists and loads
-- [ ] /cassette page exists and loads
-- [ ] /cd page exists and loads
-- [ ] /ipod page exists and loads
-- [ ] /streaming page exists and loads
-- [ ] Homepage cards link to exhibit pages
-- [ ] npm run build passes
-- [ ] npm run lint passes
+- [x] ExhibitHero.tsx created in components/content/
+- [x] ArtifactDisplay.tsx created in components/content/
+- [x] /vinyl page exists and loads
+- [x] /cassette page exists and loads
+- [x] /cd page exists and loads
+- [x] /ipod page exists and loads
+- [x] /streaming page exists and loads
+- [x] Homepage cards link to exhibit pages
+- [x] npm run build passes
+- [x] npm run lint passes

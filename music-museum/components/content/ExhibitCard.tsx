@@ -1,13 +1,16 @@
+import Link from "next/link";
+
 interface ExhibitCardProps {
   era: string;
   dateRange: string;
   description: string;
   stat: string;
+  href: string;
 }
 
-export default function ExhibitCard({ era, dateRange, description, stat }: ExhibitCardProps) {
+export default function ExhibitCard({ era, dateRange, description, stat, href }: ExhibitCardProps) {
   return (
-    <div className="border border-foreground/10 p-8 flex flex-col gap-4">
+    <Link href={href} className="block border border-foreground/10 p-8 flex flex-col gap-4 hover:bg-foreground/5 transition-colors">
       <div>
         <p className="text-xs font-bold uppercase tracking-widest text-foreground/40 mb-1">
           {dateRange}
@@ -22,6 +25,6 @@ export default function ExhibitCard({ era, dateRange, description, stat }: Exhib
       <p className="text-xs font-bold uppercase tracking-widest text-foreground/50 border-t border-foreground/10 pt-4">
         {stat}
       </p>
-    </div>
+    </Link>
   );
 }

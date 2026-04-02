@@ -10,6 +10,7 @@ const eras = [
     description:
       "Before playlists and platforms, there were grooves. The phonograph crackled to life in 1877 and the LP record gave the twentieth century its soundtrack. Every needle drop was an event.",
     stat: "Over 100M records sold annually at peak",
+    href: "/vinyl",
   },
   {
     era: "Cassette & Walkman",
@@ -17,6 +18,7 @@ const eras = [
     description:
       "Music went portable and personal. The Walkman put a private concert in your pocket and the mix tape became a love language. Listening was never a passive act again.",
     stat: "400M+ Walkmans sold worldwide",
+    href: "/cassette",
   },
   {
     era: "CD & Discman",
@@ -24,6 +26,7 @@ const eras = [
     description:
       "Crystal-clear digital audio arrived in a silver disc the size of your palm. The Discman followed the Walkman's lead, and the world entered its most prolific era of music buying.",
     stat: "2.4B CDs sold in peak year 1999",
+    href: "/cd",
   },
   {
     era: "MP3 & iPod",
@@ -31,6 +34,7 @@ const eras = [
     description:
       "A thousand songs in your pocket. The MP3 compressed the world's music libraries into hard drives, and the iPod made carrying them elegant. The album began its long goodbye.",
     stat: "450M+ iPods sold before discontinuation",
+    href: "/ipod",
   },
   {
     era: "Streaming",
@@ -38,6 +42,7 @@ const eras = [
     description:
       "Every song ever recorded, available everywhere, instantly. Ownership gave way to access. The curator replaced the collector. We are still living this revolution.",
     stat: "600M+ Spotify users worldwide",
+    href: "/streaming",
   },
 ];
 
@@ -61,6 +66,7 @@ export default function Home() {
                 dateRange={item.dateRange}
                 description={item.description}
                 stat={item.stat}
+                href={item.href}
               />
             </div>
           ))}
