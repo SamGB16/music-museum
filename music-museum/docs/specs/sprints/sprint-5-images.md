@@ -39,11 +39,11 @@ without breaking the Swiss design style.
 - Each exhibit page shows its image
 
 ## Completion Checklist
-- [ ] vinyl exhibit page shows vinyl.jpg
-- [ ] cassette exhibit page shows walkman.jpg
-- [ ] cd exhibit page shows cd.jpg
-- [ ] ipod exhibit page shows ipod.jpg
-- [ ] streaming exhibit page shows streaming.jpg
-- [ ] All images have alt text
-- [ ] npm run build passes
-- [ ] npm run lint passes
+- [x] vinyl exhibit page shows vinyl.jpg
+- [x] cassette exhibit page shows walkman.jpg
+- [x] cd exhibit page shows cd.jpg
+- [x] ipod exhibit page shows ipod.jpg
+- [x] streaming exhibit page shows streaming.jpg
+- [x] All images have alt text
+- [x] npm run build passes
+- [x] npm run lint passes

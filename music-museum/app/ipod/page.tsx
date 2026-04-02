@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import ExhibitHero from "@/components/content/ExhibitHero";
 import ArtifactDisplay from "@/components/content/ArtifactDisplay";
@@ -11,6 +12,16 @@ export default function IpodPage() {
         dateRange="1990s – 2000s"
         description="A thousand songs in your pocket. The MP3 format compressed an album to megabytes, Napster proved the world was ready to share them all, and Apple arrived to make the chaos elegant. The iPod did not just change music — it changed Apple, and Apple changed everything."
       />
+      <div className="w-full border-b border-foreground/10">
+        <Image
+          src="/ipod.jpg"
+          alt="Apple iPod first generation with its iconic white design and scroll wheel, 2001"
+          width={1200}
+          height={600}
+          className="w-full object-cover max-h-[480px]"
+          priority
+        />
+      </div>
       <Panel>
         <ArtifactDisplay
           name="Apple iPod (1st Generation, 2001)"
