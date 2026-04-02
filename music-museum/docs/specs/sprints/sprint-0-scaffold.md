@@ -31,10 +31,10 @@ Run these commands — all must pass clean:
 - npm run lint (no errors)
 
 ## Completion Checklist
-- [ ] Next.js app runs locally
-- [ ] Tailwind CSS is active
-- [ ] components/ui/ folder exists
-- [ ] components/content/ folder exists
-- [ ] app/page.tsx is cleared of placeholder content
-- [ ] npm run build passes
-- [ ] npm run lint passes
+- [x] Next.js app runs locally
+- [x] Tailwind CSS is active
+- [x] components/ui/ folder exists
+- [x] components/content/ folder exists
+- [x] app/page.tsx is cleared of placeholder content
+- [x] npm run build passes
+- [x] npm run lint passes
