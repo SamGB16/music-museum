@@ -5,9 +5,6 @@ A museum-style website exploring the evolution of music consumption, from the ph
 ## Live Site
 https://SamGB16.github.io/music-museum/
 
-## GitHub Repository
-https://github.com/SamGB16/music-museum
-
 ## Project Overview
 This project is a curated museum exhibition that guides visitors
 through five eras of music consumption technology. Each exhibit page represents a different room in the museum, telling the story of how humanity has listened to music from 1877 to the present day.
