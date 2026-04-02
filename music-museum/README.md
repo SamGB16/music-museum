@@ -1,6 +1,6 @@
 # Music Consumption Museum
 ## Overview
-This project is a museum style website that explores the evolution of music consumption, from early phyical formats such as vinyl records and cassete tapes to modern digital streaming platforms like spotify. Rather than functioning as a traditional website, this project is designed as a curated exhibition, where each section represents a different era in the history of music consumption.
+This project is a museum style website that explores the evolution of music consumption, from early physical formats such as vinyl records and cassette tapes to modern digital streaming platforms like spotify. Rather than functioning as a traditional website, this project is designed as a curated exhibition, where each section represents a different era in the history of music consumption.
 
 ## Project Goal
 The goal of this museum is to create an engaging and educational experience that helps users understand how technology has shaped the way people listen to music over time.
@@ -15,7 +15,7 @@ This project uses the Swiss design style, which is characterized by:
 This style provides a structured and modern visual system for the museum 
 
 ### Cialdini Principle - Social Proof
-This project uses the principle of social proof by highlighing how widely each music format was adopted. This helps users understand the cultural impact of each era and encourages deeper engagement.
+This project uses the principle of social proof by highlighting how widely each music format was adopted. This helps users understand the cultural impact of each era and encourages deeper engagement.
 
 ### Brand Archetype - The Explorer
 The site follows the Explorer archetype, guiding users through a journey across different eras of music consumption. Each section is designed to feel like a new "room" in a museum.
@@ -64,10 +64,10 @@ These ideas directly influenced how I structured my own project.
         ipod/
         streaming/
 
-## Architectual Approach
+## Architectural Approach
 - UI Layer (components/ui)
     Reusable design system components
-- Content Layer (components/context)
+- Content Layer (components/content)
     Museum specific patterns and layouts
 - Routes (app/)
     Page composition and orchestration only 
